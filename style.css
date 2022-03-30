@@ -1,0 +1,296 @@
+html{
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+/* :after, :before{
+    box-sizing: border-box;
+} */
+body{
+    font-family: 'Spartan', sans-serif !important;
+}
+div{
+    display: block;
+}
+img{
+    vertical-align: middle;
+}
+*{
+    margin: 0;
+}
+.header-top{
+    background: linear-gradient(90deg, #812868 0%, #f954a4 100%);
+    color: #fff;
+    padding: 8px 0;
+}
+#top-container #menu{
+    color: #000;
+    position: relative;
+    display: inline-block;
+    float: right;
+    margin: 20px 0 0;
+    text-align: right;
+}
+/* #top-container #menu a{
+    font-size: inherit;
+}
+#top-container #menu .button-menu a:hover, #top-container #menu .button-menu .current{
+    border-color: #b11e6f;
+    color: #b11e6f;
+}
+#nav li a{
+    border: 1px solid;
+    border-left: 0;
+    padding: 0px 10px;
+    position: relative;
+    margin-left: 5px;
+    z-index: 999;
+    display: block;
+    line-height: 34px;
+    outline: medium none;
+    text-align: justify;
+}
+#nav li ul li a:hover{
+    background: #b11e6f;
+    border-color: #ddd !important;
+}
+#nav li ul li a{
+    border-bottom: 1px solid #ddd;
+    border-right: 0;
+    border-left: 0;
+    position: relative;
+    z-index: 999;
+    margin: 0px;
+    display: block;
+    line-height: normal;
+    outline: medium none;
+    text-align: left;
+    font-size: 13px !important;
+    padding: 7px 15px;
+} */
+#markque-container .container #part-marq #headingdd>h3{
+    display: block;
+    font-size: 18px;
+    text-align: left;
+}
+#markque-container .container #part-marq #marqueeq p>strong{
+    display: inline-block;
+    font-size: 16px;
+    color: #b11e6f;
+    line-height: 23px;
+    font-weight: bold;
+    text-align: justify;
+}
+.btn-outline{
+    background: linear-gradient( 90deg, rgba(177, 30, 111, 1) 0%, rgba(74, 14, 192, 1) 100%) !important;
+    border: 2px solid #fff !important;
+    margin-top: 1rem;
+    font-size: 15px !important;
+    padding: 10px 20px !important;
+    border-radius: 30px !important;
+    color: #fff !important;
+}
+.container-fluid{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.downapp{
+    background: linear-gradient(100deg, rgba(0, 0, 0, 1), rgba(35, 31, 32, 0.6)), url(appbg.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 90px 15px;
+    color: #fff;
+}
+section img, .masonrysec img{
+    cursor: pointer;
+    border-radius: 6px;
+}
+#head h2{
+    margin: 0 !important;
+    padding: 0 !important;
+    position: relative;
+    text-align: center;
+}
+.h2, h2{
+    font-size: 30px;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{
+    line-height: 1.1;
+}
+h2{
+    width: auto;
+    height: auto;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.h1, .h2, .h3, h1, h2, h3{
+    font-family: 'Lexend', sans-serif !important;
+    box-sizing: border-box;
+}
+.pac-col4 div{
+    color: #000;
+    padding: 20px 10px;
+    text-decoration: none;
+    border-bottom-left-radius: 
+    4px;border-bottom-right-radius: 4px;
+}
+.pac-col4 img{
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+.pac-col4{
+    text-align: center;
+}
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+input, select, textarea{
+    background: linear-gradient( 90deg, rgba(177, 30, 111, 1) 0%, rgba(74, 14, 192, 1) 100%) !important;
+    border: 2px solid #fff !important;
+    margin-top: 1rem;
+    font-size: 15px !important;
+    padding: 10px 20px !important;
+    border-radius: 30px !important;
+    color: #fff !important;
+}
+
+#course-program-container{
+    width: 100%;
+    height: auto;
+    /* height: 30%; */
+    position: relative;
+    display: inline-block;
+    padding: 50px 0;
+}
+.coursec{
+    background: url(artboard2.png) no-repeat center;
+    background-size: cover;
+}
+#gallery-container #head h2{
+    display: inline-block;
+    text-align: center;
+    position: relative;
+}
+.galul{
+    display: flex;
+    flex-wrap: wrap;
+}
+#gallery-container{
+    text-align: center;
+}
+.galul img{
+    max-height: 100%;
+    min-width: 100%;
+    object-fit: cover;
+    vertical-align: bottom;
+    border-radius: 1vmin;
+}
+a:-webkit-any-link{
+    cursor: pointer;
+}
+.galul li{
+    list-style: none;
+    text-align: -webkit-match-parent;
+}
+
+#student-container{
+    width: 100%;
+    height: auto;
+    display: block;
+    position: relative;
+    background: url(student-talk.jpg) no-repeat center;
+    background-size: cover;
+    padding: 70px 0;background-attachment: fixed;
+} */
+.testimonial-content{
+    margin-top: 30px;
+}
+#student-container .container{
+    text-align: center;
+}
+.col-lg-3{
+    width: 25%;
+}
+
+#footer-container2{
+    width: 100%;
+    float: left;
+}
+.container-fluid{
+    padding-right: 15px;padding-left: 15px;margin-right: auto;margin-left: auto;
+}
+.nfotcont{
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+    color: #000;
+    background: url(fotbg2.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.nfothed{
+    font-size: 16px;
+    color: #000;
+    margin-bottom: 1rem;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.nfotcont li a{
+    font-size: 14px;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+.nfotcont li a:hover{
+    color: #b11e6f;
+}
+a{
+    background-color: transparent;
+    text-decoration: none;
+}
+.text-right{
+    text-align: right;
+}
+.list-group{
+    padding-left: 0;
+    margin-bottom: 20px;
+}
+ul{
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.nfot-soclist li a{
+    border-radius: 50%;
+    background: #fff;
+    padding: 0;
+    width: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    box-shadow: 0 5px 50px 0 rgba(0, 0, 0, 0.2);
+    font-size: 15px;
+    margin-right: 10px;
+}
+.nfotcont li a{
+    text-transform: capitalize;
+    font-weight: 500;
+}
+.nfot-soclist li a i{
+    line-height: 25px;
+}
+.fab, .far{
+    font-weight: 400;
+}
+.fab{
+    font-family: "Font Awesome 5 Brands";
+}
